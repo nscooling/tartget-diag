@@ -1,0 +1,26 @@
+/home/martin/projects/target-diag/build/debug/Application.elf  :
+section                 size         addr
+.note.gnu.build-id      0x24   0x20000000
+.isr_vector            0x3ca    0x8000000
+.inits                  0x44    0x80003cc
+.data                  0x2e0   0x20000028
+.data_CCMRAM             0x0   0x10000000
+.bss                  0x1840   0x20000308
+.text                0x283c4    0x8000410
+.ARM.exidx               0x8    0x80287d4
+.noinit                  0x0   0x20001b48
+._check_stack          0x100   0x20001b48
+.comment                0x4d          0x0
+.ARM.attributes         0x2c          0x0
+.debug_aranges         0x3e0          0x0
+.debug_info           0xa2cd          0x0
+.debug_abbrev         0x1f57          0x0
+.debug_line           0x5c02          0x0
+.debug_frame         0x15f74          0x0
+.debug_str           0x4ae68          0x0
+.debug_loc            0x28be          0x0
+.debug_ranges          0x318          0x0
+.debug_macro         0x119b8          0x0
+Total                0xb1a07
+
+

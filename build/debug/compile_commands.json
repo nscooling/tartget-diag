@@ -1,0 +1,117 @@
+[
+{
+  "directory": "/home/martin/projects/target-diag/build/debug",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++ -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/src -I/home/martin/projects/target-diag/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/drivers-cpp -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c++17 -o CMakeFiles/Application.dir/src/led_keys.cpp.obj -c /home/martin/projects/target-diag/src/led_keys.cpp",
+  "file": "/home/martin/projects/target-diag/src/led_keys.cpp"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++ -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/src -I/home/martin/projects/target-diag/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/drivers-cpp -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c++17 -o CMakeFiles/Application.dir/src/main.cpp.obj -c /home/martin/projects/target-diag/src/main.cpp",
+  "file": "/home/martin/projects/target-diag/src/main.cpp"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++ -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/src -I/home/martin/projects/target-diag/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/drivers-cpp -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c++17 -o CMakeFiles/Application.dir/src/usart.cpp.obj -c /home/martin/projects/target-diag/src/usart.cpp",
+  "file": "/home/martin/projects/target-diag/src/usart.cpp"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/newlib/_syscalls.c.obj -c /home/martin/projects/target-diag/system/src/newlib/_syscalls.c",
+  "file": "/home/martin/projects/target-diag/system/src/newlib/_syscalls.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/newlib/_startup.c.obj -c /home/martin/projects/target-diag/system/src/newlib/_startup.c",
+  "file": "/home/martin/projects/target-diag/system/src/newlib/_startup.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/newlib/_sbrk.c.obj -c /home/martin/projects/target-diag/system/src/newlib/_sbrk.c",
+  "file": "/home/martin/projects/target-diag/system/src/newlib/_sbrk.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/newlib/assert.c.obj -c /home/martin/projects/target-diag/system/src/newlib/assert.c",
+  "file": "/home/martin/projects/target-diag/system/src/newlib/assert.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/newlib/__dso_handle.c.obj -c /home/martin/projects/target-diag/system/src/newlib/__dso_handle.c",
+  "file": "/home/martin/projects/target-diag/system/src/newlib/__dso_handle.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/newlib/_exit.c.obj -c /home/martin/projects/target-diag/system/src/newlib/_exit.c",
+  "file": "/home/martin/projects/target-diag/system/src/newlib/_exit.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/newlib/_write.c.obj -c /home/martin/projects/target-diag/system/src/newlib/_write.c",
+  "file": "/home/martin/projects/target-diag/system/src/newlib/_write.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/cortexm/exception_handlers.c.obj -c /home/martin/projects/target-diag/system/src/cortexm/exception_handlers.c",
+  "file": "/home/martin/projects/target-diag/system/src/cortexm/exception_handlers.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/cortexm/_reset_hardware.c.obj -c /home/martin/projects/target-diag/system/src/cortexm/_reset_hardware.c",
+  "file": "/home/martin/projects/target-diag/system/src/cortexm/_reset_hardware.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/cortexm/_initialize_hardware.c.obj -c /home/martin/projects/target-diag/system/src/cortexm/_initialize_hardware.c",
+  "file": "/home/martin/projects/target-diag/system/src/cortexm/_initialize_hardware.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/diag/Trace.c.obj -c /home/martin/projects/target-diag/system/src/diag/Trace.c",
+  "file": "/home/martin/projects/target-diag/system/src/diag/Trace.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/diag/trace_impl.c.obj -c /home/martin/projects/target-diag/system/src/diag/trace_impl.c",
+  "file": "/home/martin/projects/target-diag/system/src/diag/trace_impl.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/cmsis/vectors_stm32f4xx.c.obj -c /home/martin/projects/target-diag/system/src/cmsis/vectors_stm32f4xx.c",
+  "file": "/home/martin/projects/target-diag/system/src/cmsis/vectors_stm32f4xx.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/system",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/system/include -I/home/martin/projects/target-diag/system/include/cmsis -I/home/martin/projects/target-diag/system/include/cortexm -I/home/martin/projects/target-diag/system/include/diag -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c99 -o CMakeFiles/system.dir/src/cmsis/system_stm32f4xx.c.obj -c /home/martin/projects/target-diag/system/src/cmsis/system_stm32f4xx.c",
+  "file": "/home/martin/projects/target-diag/system/src/cmsis/system_stm32f4xx.c"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/drivers-cpp",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++ -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/drivers-cpp -I/home/martin/projects/target-diag/system/include/cmsis -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c++17 -o CMakeFiles/drivers-cpp.dir/Event.cpp.obj -c /home/martin/projects/target-diag/drivers-cpp/Event.cpp",
+  "file": "/home/martin/projects/target-diag/drivers-cpp/Event.cpp"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/drivers-cpp",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++ -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/drivers-cpp -I/home/martin/projects/target-diag/system/include/cmsis -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c++17 -o CMakeFiles/drivers-cpp.dir/GPIO.cpp.obj -c /home/martin/projects/target-diag/drivers-cpp/GPIO.cpp",
+  "file": "/home/martin/projects/target-diag/drivers-cpp/GPIO.cpp"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/drivers-cpp",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++ -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/drivers-cpp -I/home/martin/projects/target-diag/system/include/cmsis -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c++17 -o CMakeFiles/drivers-cpp.dir/Peripherals.cpp.obj -c /home/martin/projects/target-diag/drivers-cpp/Peripherals.cpp",
+  "file": "/home/martin/projects/target-diag/drivers-cpp/Peripherals.cpp"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/drivers-cpp",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++ -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/drivers-cpp -I/home/martin/projects/target-diag/system/include/cmsis -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c++17 -o CMakeFiles/drivers-cpp.dir/Timer.cpp.obj -c /home/martin/projects/target-diag/drivers-cpp/Timer.cpp",
+  "file": "/home/martin/projects/target-diag/drivers-cpp/Timer.cpp"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/drivers-cpp",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++ -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/drivers-cpp -I/home/martin/projects/target-diag/system/include/cmsis -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c++17 -o CMakeFiles/drivers-cpp.dir/USART.cpp.obj -c /home/martin/projects/target-diag/drivers-cpp/USART.cpp",
+  "file": "/home/martin/projects/target-diag/drivers-cpp/USART.cpp"
+},
+{
+  "directory": "/home/martin/projects/target-diag/build/debug/drivers-cpp",
+  "command": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-g++ -DDEBUG -DOS_USE_SEMIHOSTING -DOS_USE_TRACE_SEMIHOSTING_STDOUT -DSTM32F407xx -DTRACE -DTRACE_ENABLED -DUSE_FULL_ASSERT -I/home/martin/projects/target-diag/drivers-cpp -I/home/martin/projects/target-diag/system/include/cmsis -g -mcpu=cortex-m4 -mfloat-abi=soft --specs=nano.specs -fmessage-length=0 -funsigned-char -ffunction-sections -fdata-sections -MMD -MP -Wall -Wextra -Wconversion -Wsign-conversion -g3 -Og -fno-exceptions -std=c++17 -o CMakeFiles/drivers-cpp.dir/USART_utils.cpp.obj -c /home/martin/projects/target-diag/drivers-cpp/USART_utils.cpp",
+  "file": "/home/martin/projects/target-diag/drivers-cpp/USART_utils.cpp"
+}
+]
